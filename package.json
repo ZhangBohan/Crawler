@@ -1,0 +1,20 @@
+{
+  "name": "web-image-crawler",
+  "version": "1.0.0",
+  "description": "Web image crawler service",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --forceExit",
+    "build": "docker build -t web-image-crawler .",
+    "docker:run": "docker run -p 3000:3000 web-image-crawler"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer-core": "^21.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
+  }
+} 
