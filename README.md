@@ -30,6 +30,8 @@
 
 ### Docker环境
 
+镜像地址：registry.cn-beijing.aliyuncs.com/mathmind/web-image-crawler
+
 ```bash
 # 构建Docker镜像
 npm run build
